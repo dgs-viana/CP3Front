@@ -1,0 +1,196 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    
+    background-color: #782020; 
+    color: #700000; 
+    line-height: 1.6;
+}
+
+
+header {
+    background-color: #2a0000; 
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+header img {
+    width: 180px;
+    margin-bottom: 10px;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #d4af37; 
+}
+
+
+.hero {
+    background-image: url('https://img.freepik.com/fotos-gratis/copo-de-vinho-tinto-e-garrafa-no-balcao-de-bar_107420-65845.jpg?ga=GA1.1.1298547182.1747701976&w=740');
+    background-size: cover;
+    background-position: center;
+    height: 550px;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.hero h1 {
+    font-size: 4em;
+    margin-bottom: 20px;
+    font-weight: bold;
+   }
+
+.hero p {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+
+.hero .cta {
+    background-color: #d4af37; 
+    color: white;
+    padding: 15px 35px;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 30px;
+}
+
+.about {
+    background-color: #fff8e1; 
+    padding: 60px 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.about h2 {
+    font-size: 2.8em;
+    color: #8e2a47; 
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 1.2em;
+    line-height: 1.8;
+}
+
+
+/*.gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+/*.gallery p {
+    background-color: ;
+    color: white;
+}
+
+/*.gallery h3 {
+    color: white;
+}*/
+
+.contact {
+    background-color: #fff8e1;
+    padding: 60px 20px;
+    text-align: center;
+
+
+
+}
+
+.catalogo {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.wine-card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 200px;
+  padding: 10px;
+  text-align: center;
+  background-color: #fff5f7;
+  transition: transform 0.3s;
+}
+
+.wine-card:hover {
+  transform: scale(1.05);
+}
+
+.wine-card img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+
+
+footer {
+    background-color: #000000;
+    
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 60px;
+}
+
+footer p {
+    font-size: 1em;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: #d4af37; 
+}
+
+
+@font-face {
+    font-family: 'woff2';
+    src: url('fonts/minha-fonte.woff2') format('woff2'),
+         url('fonts/minha-fonte.woff') format('woff'),
+         url('fonts/minha-fonte.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+    font-family: 'woff2', sans-serif;
+}
